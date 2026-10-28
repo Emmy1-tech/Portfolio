@@ -75,3 +75,22 @@ HTML · CSS · JavaScript · GitHub Pages
 ---
 
 This portfolio is a living record of learning and shipped work. It should be updated as implementations, tests, and project outcomes are verified.
+
+## Additional portfolio and technical review
+
+The original live-site link and GitHub profile above are retained. There are now two live portfolio experiences:
+
+| Portfolio | Link |
+| --- | --- |
+| Original GitHub Pages portfolio | https://emmy1-tech.github.io/Portfolio/ |
+| Additional Emmy Portfolio | https://emmy-portfolio-dev.epiclamb21.chatgpt.site/ |
+
+**For hiring teams:** read the [project engineering notes](./PROJECTS.md) for front-end and back-end implementation details, architecture, API/data flows, test scenarios, reproducible setup links, trade-offs, demo walkthroughs, and current limitations.
+
+The additional review covers:
+
+- **CloudPulse:** React/TypeScript, a typed API layer, FastAPI/Pydantic, SQLAlchemy/SQLite, simulated incident workflows, tests, CI, and demo/local separation.
+- **AI Career Copilot:** browser-native interfaces, Express JSON APIs, application tracking, optional server-side Gemini integration, validation/error handling, queued local storage, and API tests.
+- **Portfolio engineering:** responsive CSS, keyboard focus states, reduced-motion support, and the original static deployment.
+
+Project descriptions point to source files and workflow results. Planned improvements are labelled separately from implemented behavior.
